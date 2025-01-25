@@ -17,5 +17,18 @@
 
     <build>
         <finalName>HelloWorldApp</finalName>
+        <plugins>
+            <!-- Maven Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Use a compatible plugin version -->
+                <configuration>
+                    <source>1.8</source> <!-- Set source to Java 8 -->
+                    <target>1.8</target> <!-- Set target to Java 8 -->
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>
+
