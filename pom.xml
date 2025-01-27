@@ -3,7 +3,7 @@
     <groupId>com.example</groupId>
     <artifactId>HelloWorldApp</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
     <dependencies>
         <!-- Servlet API -->
